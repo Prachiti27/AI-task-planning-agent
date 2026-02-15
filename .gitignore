@@ -1,0 +1,35 @@
+# Virtual environments
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
